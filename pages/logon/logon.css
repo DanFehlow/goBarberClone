@@ -1,0 +1,146 @@
+body{
+    background-color: #312e38;
+    overflow-y: hidden;
+    
+    }
+    .container {
+    display: grid;
+    grid: auto  / 50% 50%;
+    
+    }
+    
+    #bg-image{
+    min-height: 100vh;
+    position: relative;
+    width: 100%;
+    object-fit: cover;
+    background-blend-mode: darken;
+    }
+    
+    #login-form {
+    display: flex;
+    gap: 08px;
+    width: 100%;
+    flex-direction: column;
+    }
+      
+    .logo {
+    margin-bottom: 80px;
+     }
+    
+    .content {
+    padding: 122px 0;
+    }
+    .content-container {
+    width: 100%;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    }
+    
+    .wrapper {
+    position: relative;
+    max-width: 340px;
+    height: 100%;
+    margin: auto;
+    flex-direction: column;
+    align-items: center;
+    justify-content: space-between;
+    }
+      
+    #login-form {
+    display: flex;
+    flex-direction: column;
+    gap: 08px;
+    width: 100%;
+    }
+    
+    #login-form input {
+    display: flex;
+    padding: 18px 0 18px 52px;
+    background-color: #232129;
+    border-radius: 10px;
+    width: 100%;
+    border: none;
+    color: rgb(226, 138, 6);
+    font-size: 1rem;
+    box-sizing: border-box;
+    font-family: 'Roboto Slab';
+    }
+    
+    #login-form input:focus {
+    outline: none !important;
+    border: 1px solid #ff9000;
+    box-shadow: none;
+    }
+    
+    .input-form {
+    width: 100%;
+    display: flex;
+    }
+    
+    #form-button{
+    margin-top: 24px;
+    background-color: #FF9000;
+    width: 340px;
+    height: 56px;
+    font-size: 16px;
+    border-radius: 10px;
+    font-family: 'Roboto Slab';
+    line-height: 21px;
+    font-weight: 500;
+    cursor: pointer;
+    transition: 0.2s ease;
+    border: none;
+    }
+    
+    #form-button:hover{
+    background-color: #96590a; ;
+    }
+    
+    .input-icon {
+    position: absolute;
+    transform: translateY(105%);
+    left: 18px;
+    }
+    
+    h2{
+    margin-bottom: 24px;
+    color: rgba(244, 237, 232, 1);
+    font-family: 'Roboto Slab';
+    font-size: 24px;
+    }
+    
+    .forget-action{
+    display: flex;
+    align-items: center;
+    margin-top: 24px;
+    margin-bottom: 80px;
+    }
+    
+    .forget-action span{ 
+    color:  rgba(244, 237, 232, 1);
+    height: 21px;
+    font-family: 'Roboto Slab';
+    font-size: 16px;
+    text-align: center;
+    cursor: pointer;
+    line-height: 21px;
+    }
+    
+    .bottom-action{
+    display: flex;
+    gap: 18.5px;
+    color:  #FF9000;
+    cursor: pointer;
+    font-family: 'Roboto Slab';
+    font-size: 16px;
+    }
+    
+    @media screen and (max-width: 1089px) {
+    .container {
+      display: flex;
+      flex-direction: column;
+    }
+    
+    }
